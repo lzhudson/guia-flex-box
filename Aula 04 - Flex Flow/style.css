@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.aula{
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 auto;
+  width: 70%;
+  align-items: center;
+}
+.aula .container{
+  max-width: 200px;
+  border-width: 1px;
+  border-color: #aaaaaa;
+  border-style: solid;
+  display: flex;
+  flex-flow: row wrap;
+}
+.aula .container .item{
+  margin: 5px;
+  background-color: aquamarine;
+}
+.aula-2 .container{
+  flex-flow: column wrap;
+}
+.aula-3 .container{
+  flex-flow: row nowrap;
+}
+.aula-4 .container{
+  flex-flow: column nowrap;
+}
