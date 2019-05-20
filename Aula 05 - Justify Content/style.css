@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.aula{
+  display: flex;
+  flex-direction: column;;
+  align-items: center;
+}
+.aula .container{
+  display: flex;
+  width: 300px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #AAAAAA;
+  justify-content: flex-start;
+}
+.aula .container .item{
+  background-color: crimson;
+  margin: 5px;
+  color: #ffffff;
+  
+}
+.aula-2 .container{
+  justify-content: flex-end;
+}
+.aula-3 .container{
+  justify-content: center;
+}
+.aula-4 .container{
+  justify-content: space-around;
+}
+.aula-5 .container{
+  justify-content: space-between;
+}
+.aula-6 .container{
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  min-height: 200px;
+}
+.aula-7 .container{
+  flex-flow: column wrap;
+  justify-content: flex-end;
+  min-height: 200px;;
+}
+.aula-8 .container{
+  flex-flow: column wrap;
+  justify-content: center;
+  min-height: 200px;
+}
+.aula-9 .container{
+  flex-flow: column wrap;
+  justify-content: space-around;
+  min-height: 200px;
+}
+.aula-10 .container{
+  flex-flow: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
