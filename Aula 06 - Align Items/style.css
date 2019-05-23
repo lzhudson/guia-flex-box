@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.center{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.aula-1{
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.aula-1 .container{
+  display: flex;
+  flex-direction: row;
+  max-width: 400px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  align-items:stretch;
+}
+.aula-1 .container .item{
+  margin: 5px;
+  background-color: chartreuse;
+}
+.aula-2 .container{
+  align-items: flex-start;
+  min-height: 200px;
+}
+.aula-3 .container{
+  align-items: flex-end;
+  min-height: 200px;
+}
+.aula-4 .container{
+  align-items: baseline;
+  min-height: 200px;  
+}
+.aula-4 .container .item:first-child{
+  padding-top: 40px;
+}
+.aula-5 .container{
+  flex-direction: column;
+  align-items: stretch;
+  min-width: 600px;
+}
+.aula-6 .container{
+  flex-direction: column;
+  align-items: flex-start;
+}
+.aula-7 .container{
+  flex-direction: column;
+  align-items: flex-end;
+}
+.aula-8 .container{
+  flex-direction: column;
+  align-content: baseline;
+}
+.aula-8 .container{
+  flex-direction: column;
+  align-content: baseline;
+}
+.aula-9 .container{
+  flex-direction: row;
+  align-items: center;
+  min-width: 400px;
+}
+.aula-10 .container{
+  flex-direction: column;
+  align-items: center;
+}
