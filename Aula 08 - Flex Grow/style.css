@@ -1,0 +1,44 @@
+.center{
+  text-align: center;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+.aula{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aula .container{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  border: 1px solid #aaa;
+}
+.aula .container .item{
+  margin: 5px;
+  background-color: brown;
+  flex-grow: 0;
+}
+.aula-2 .container .item{
+  flex-grow: 1;
+}
+.aula-3 .container .item{
+  flex-grow:2;
+}
+.aula-4  .container{
+  width: 700px;
+}
+.aula-4 .container .item:nth-child(1){
+  flex-grow: 0;
+}
+.aula-4 .container .item:nth-child(2){
+  flex-grow: 1;
+}
+.aula-4 .container .item:nth-child(3){
+  flex-grow: 2;
+}
+.aula-4 .container .item:nth-child(4){
+  flex-grow: 3;
+}
