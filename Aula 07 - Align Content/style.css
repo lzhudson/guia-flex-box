@@ -1,0 +1,34 @@
+.center{
+  text-align: center;
+}
+.aula{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aula .container{
+  display: flex;
+  max-width: 200px;
+  min-height: 300px;
+  border: 1px solid #AAA;
+  flex-wrap: wrap;
+  align-content: stretch;
+  flex-direction: row;
+  
+}
+.aula .container .item{
+  background-color: darkgoldenrod;
+  margin: 5px;
+}
+.aula-2 .container{
+  align-content: flex-start;
+}
+.aula-3 .container{
+  align-content: flex-end;
+}
+.aula-4 .container{
+  align-content: space-around;
+}
+.aula-5 .container{
+  align-content: space-between;
+}
